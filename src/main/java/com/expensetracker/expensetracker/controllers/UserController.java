@@ -18,7 +18,7 @@ public class UserController {
         String lastName = (String) userMap.get("lastName");
         String email = (String) userMap.get("email");
         String password = (String) userMap.get("password");
-        System.out.println("Passed Here");
+
         return firstName + ", " + lastName + ", " + email + ", " + password;
     }
 }
